@@ -1,0 +1,110 @@
+
+TAG     =>   HTML Tag HTML ka ek element hota hai jo browser ko batata hai ki content ko kaise display ya structure karna hai.
+Ye angle brackets < > ke andar likha jata hai, jaise: <p>, <h1>, <img>।
+
+
+HEAD =>
+
+<!-- INFORMATION ABOUT OUR WEB PAGE 
+     tha is work in browser-->
+
+<HEAD>     =>   STARTING TAG
+
+</HEAD>    =>   ENDING TAG.
+
+
+CONTAINING TAG..... IS HEAD WHICH HAVE BELONGS TO ENDING AND STARTING TAGS
+.
+
+
+
+
+
+
+WHICH HAVE ONLY STARTING TAG CAN BE SAY THAT EMPTY TAG......
+
+
+/     => forword slash
+
+\     => Back slash.
+
+
+
+
+DIV         =>     BLOCK ELEMENTS
+
+SPAM        =>     INLINE ELEMENTS.
+
+
+
+
+
+<html lang="en">             
+    <!-- lang    stands   language     if en   =>  english      ,  if hi  => hindi. -->
+
+
+
+
+
+FOR OPEN CONSOLE IN WEBSITE.
+CTRL+SHIFT+I
+
+
+if i want to justify in any para of lorem.
+alt+z
+
+
+
+<!-- html entity   &nbsp;     which is called nonebreaking space. -->
+
+    HELLO AMAN &nbsp  KUSHWAHA
+
+    <!-- <br>    for break rule
+    <hr>    horizontal rule. -->
+
+
+ <ol type="i">
+        <!-- a,A,1,i,I -->
+        <li>AMAN KUSHWAHA</li>
+        <LI>RAGHAV</LI>
+        <li>Alok</li>
+        <li>Preetam</li>
+        <li>Krishna</li>
+
+    </ol>
+
+<ol type="1"  start="11">
+        <!-- a,A,1,i,I -->
+
+
+ <ol type="1"  start="11"    reversed>
+        <!-- a,A,1,i,I -->
+
+
+output
+
+
+11.AMAN KUSHWAHA
+10.RAGHAV
+9.Alok
+8.Preetam
+7.Krishna
+
+
+
+
+if want to deploye to the make sure use the meta tag for Using SEO  
+like this => 
+
+ <meta name="keywords" content="AMAN KUSHWAHA , BCA, FULL STACK DDEVELOPER, DEVELOPER, WEB DESIGNER">
+
+if you want to refresh our website without any activity so you can go with meta tag..
+like this =>
+
+<meta http-equiv="refresh" content="5"> 
+
+which have content in the link of botton after in deployment so you can go with also a meta tag.. 
+like this =>  
+
+<meta name="description" content="WELCOME TO THE DARK SIDE">
+
