@@ -1,0 +1,38 @@
+<img src="image/pexels-chris-f-38966-11017002.jpg" alt=""  width="100%">
+
+    <!-- if we are typing any folder name directly so that is also relative path -->
+     
+    <img src="/Day 2/image _/pexels-haibo-ni-2162142615-38016200.jpg" alt="" width="50%">
+    <!-- absolute path if we are using the /   -->
+
+    <img src="../Day 2/image/pexels-rob-volz-2160012532-37898647.jpg" width="50%" alt="">
+
+    <!-- if i access like ..   OR . through that can be say that is relative path -->
+
+
+
+you can attach any type of info in anchor tag like =>  video, image, vice, etc...
+
+and if you want to open the info in new tab so that use the target keyword like this =>    target="_blank"
+
+
+ <a href="https://google.com" target="_blank">go to The google</a>
+    <br>
+    <a href="/Day 2/image/apple-iphone-11-2019.webp" target="_blank">go to a image</a>
+    <br>
+    <a href="/Day 2/image _/pexels-haibo-ni-2162142615-38016200.jpg" target="_blank"> go a new image</a>
+    <br>
+    <a href="/Day 2/image/uhd_30fps.mp4" target="_blank">Go to a Video</a>
+
+
+we are using this iframe tag which is provided a scrolling screen like Frame and that is can be define a name and we can open in frame name help of any of info OR file ... 
+
+like this      =>
+
+
+    <a href="second.html" target="second">Second File</a>
+    <iframe src="first.html" frameborder="10" name="second"></iframe>
+
+
+
+
