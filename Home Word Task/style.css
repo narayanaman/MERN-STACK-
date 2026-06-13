@@ -1,0 +1,23 @@
+body{
+       background-color: rgba(30, 44, 53, 0.936);
+       color:rgb(252, 224, 224);
+       text-align: center;
+}table{
+              justify-self: center;
+}
+#submit,#reset{
+       color:white;
+       background-color: rgb(201, 45, 45);
+       border-radius: 0.6rem;
+       transition: 1.5s;
+}
+#submit:hover{
+        color:white;
+       background-color: rgba(50, 186, 42, 0.806);
+       border-radius:0rem;
+}
+#reset:hover{
+       color:white;
+       background-color: rgba(50, 186, 42, 0.806);
+       border-radius:0rem;
+}

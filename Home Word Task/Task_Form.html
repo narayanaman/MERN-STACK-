@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        
+        <fieldset>
+            <h1>Application Form</h1>
+            <table>
+                <tr>
+                    <td><label for="name">First Name :</label></td>
+                    <td><input type="text" name="fn" id="name" placeholder="Enter First Name"></td>
+                    <td colspan="1"></td>
+                    <td><label for="lastname">Lastname</label></td>
+                    <td><input type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                    <td colspan="1"></td>
+                    <td><label for="age">Age</label></td>
+                    <td><input type="number" name="age" id="age" placeholder="Enetr Age"></td>                    
+                </tr>
+                <tr>
+                    <td><label for="gen">Gender</label></td>
+                    <td>
+                        <select name="gen" id="gen">
+                            <option value="">Select Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+                    <td colspan="1"></td>
+                    <td><label for="eid">Email Address</label></td>
+                    <td><input type="email" name="eid" id="eid" placeholder="Enter Your E- Mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="job">Positions Available :</label></td>
+                    <td><input type="radio" name="job" id="job1" value="Junior Developer"><label for="job1">Junior Developer </label></td>
+                    <td><input type="radio" name="job" id="job2" value="MidLevel developer"><label for="job2">MidLevel developer</label></td>
+                    <td><input type="radio" name="job" id="job3" value="Senior Developer"><label for="job3">Senior Developer</label></td>
+                </tr>
+                <tr>
+                    <td><label for="programming">Programming Languages :</label></td>
+                    <td><input type="checkbox" name="programming" id="programming1" value="Java"><label for="programming1">Java</label></td>
+                    <td><input type="checkbox" name="programming" id="programming2" value="java Script"><label for="programming2">Java Script</label></td>
+                    <td><input type="checkbox" name="programming" id="programming3" value="Python"><label for="programming3">Python</label></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password</label></td>
+                    <td><input type="password" name="pass" id="pass" placeholder="Enter Your Password"></td>
+                    <td colspan="1"></td>
+                    <td><label for="cpass">Confirm Password</label></td>
+                    <td><input type="password" name="cpass" id="cpass" placeholder="Enter Your Confirm Password"></td>
+                </tr>
+                <tr>
+                    <td colspan="1"></td>
+                    <td><input type="submit" value="Save" id="submit"></td>
+                    <td><input type="reset" value="Reset" id="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
