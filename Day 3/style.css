@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(30, 44, 53, 0.936);
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head{
+    color:white;
+
+}
+#div{
+    color:#e90;
+}
+#card{
+    width:15rem;
+    height:10rem;
+    color:#eeaa99;
+    background-color: rgba(161, 130, 90, 0.929);
+    border-radius: 1rem;
+    justify-self: center;
+    transition: 1s;
+    position:relative;
+    top:50px;
+}
+#card:hover{
+    color:rgb(212, 187, 97);
+    background-color: rgb(40, 164, 151);
+    border-radius:50% 50%;
+    
+}
+img{
+    width:15rem;
+    /* 240px */
+    height:10rem;
+    /* 160px */
+    border-radius: 1rem;
+    transition: 1s;
+}
+img:hover{
+    border-radius: 50%;
+}
