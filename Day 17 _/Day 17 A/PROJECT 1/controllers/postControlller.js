@@ -134,31 +134,30 @@ const deletePost = async(req,res)=>{
         const {id}=req.params;
         const {title,content}=req.body;
 
-        let post = await Post.findByIdAndDelete(id);
+        let post = await Post.findById(id);
         if(!post){
             return res.status(401).json({
                 success:false,
                 message:"Post Not Found"
             });
         }
+        console.log(req.user);
         if(post.user.toString() !== req.user._id.toString()){
             return res.status(403).json({
                 success:false,
                 message:"You can only delete your own Post"
             });
         }
-        post.title=title || post.title;
-        post.content=content || post.content;
-        await post.delete();
+        await Post.findByIdAndDelete(id);
         res.status(200).json({
             success:true,
-            message:"Delete Post",
+            message:"Post Deleted",
             post
         });
     }
     catch(err){
         comnsole.log(err);
-        res.json({
+        res.status(500).json({
             success:false,
             message:"Unable to update post",
             error:err.message
